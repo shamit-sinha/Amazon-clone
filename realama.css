@@ -1,0 +1,293 @@
+body{
+    margin: 0;
+}
+
+#navbar{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    height: 59px;
+    background-color: #0F1111;
+    color: white;
+}
+
+#amazon{
+    height:50px;
+    padding:10px;
+}
+
+a{
+   color: white;
+}
+
+#delivering{
+    font-size: smaller;
+    color: #CCCCCC;
+}
+
+#location{
+    margin-left: 10px;
+    padding:10px;
+    color: white
+}
+
+#searchbar{
+    margin:10px;
+   margin-bottom: 15px;
+   justify-content: center;
+   color: white
+   display: inline;
+   align-items: center;
+}
+
+#input{
+   margin-left: -5px;
+    margin-bottom: 5px;
+    height:37.5px;
+    width:650px;
+}
+
+#button{
+    background-color: rgb(228, 170, 100);
+    margin-left: -5px;
+    height: 45px;;
+    border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+#dropdown{
+    margin-left: 20px;
+    background-color: #c8c6c6;
+    width: 42px;
+    height: 43px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+
+.linear{
+  flex-grow: 2;
+}
+
+#sign{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+#order{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 30px;  
+}
+
+#cartimg{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 30px;  
+}
+
+#cart{
+    margin-top:15px;
+}
+
+#menu{
+    background: #232F3E;
+    height: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.MX{
+ padding-top: 10px;
+ font-size: 15px;
+ margin-left: 19px;
+}
+
+.MX:hover{
+    border-color: #c8c6c6 ;
+    border-style: solid;
+    border-radius: 10%;
+    border-spacing: 3px;
+    border-width: 2px;
+}
+
+#main{
+    position: relative;
+}
+
+#bgimg{
+    width:100%;
+    background: linear-gradient(to baseline,rgba(0,0,0,1)0%,rgba(0,0,0,0)100%);
+}
+ 
+#offers{
+    background: #f1e1e1;
+    position:absolute;
+    bottom:0px;
+    left:24px;
+    height:380px;
+    width: 355px;
+}
+
+#blackii{
+    color: #0F1111;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding:3px;
+    margin-top: -3px;
+    margin: 2.5px;
+    margin-left: 12px;
+}
+
+#lap{
+    margin:10px;
+    margin-left: 22px;
+}
+
+#seeoffer{
+    color: rgb(78, 107, 235);
+    margin-top:- 15px;
+    margin-left: 130px;
+}
+
+.lap:hover{
+  border: #db4747;
+  border-spacing: 3px;
+  animation: alternate;
+  animation-duration: 2s;
+  border-width: 3px;
+  border-style: solid;
+}
+
+#offers2{
+    background: #f1e1e1;
+    position:absolute;
+    bottom:0px;
+    left:405px;
+    height:380px;
+    width: 355px;
+}
+
+#offers3{
+    background: #f1e1e1;
+    position:absolute;
+    bottom:0px;
+    left:785px;
+    height:380px;
+    width: 355px;
+}
+
+#offers4{
+    background: #f1e1e1;
+    position:absolute;
+    bottom:220px;
+    left:1165px;
+    height:160px;
+    width:355px ;
+}
+
+#signin{
+    width:300px ;
+    height:50px;
+    margin: 20px;
+    margin-left: 25px;
+    border-radius: 25px;
+    background-color: #f2c364;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#blacki{
+    color: #0F1111;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding:3px;
+    margin-top: -3px;
+    margin: 2.5px;
+    margin-left: 11px;
+}
+
+#washing{
+    width: 42%;
+    margin-left: 22px; 
+    margin-top: 10px;
+}
+
+#ac{
+    width: 42%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#txtwash{
+    margin-top: -10px;
+    color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.2px;
+    margin-left: 36px;
+}
+
+#txtac{
+    margin-top: -10px;
+    color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.2px;
+    margin-left: 58px;
+}
+
+#fridge{
+    width: 42%;
+    margin-left: 22px; 
+    margin-top: 30px;
+}
+
+#exhaust{
+    width: 42%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#txtfridge{
+    margin-top: -10px;
+    color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.2px;
+    margin-left: 80px;
+}
+
+#txtexhaust{
+    margin-top: -10px;
+    color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.2px;
+    margin-left: 108px;
+}
+
+#moreoffer{
+    color: rgb(78, 107, 235);
+    padding-top: 20px;
+    margin-top:35px;
+    margin-left: 140px;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+#txtsofa{
+    margin-top: -10px;
+    color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.2px;
+    margin-left: 121px;
+}
+
+#signin:hover{
+    border:5px;
+    border-radius: 30px;
+    border-color: rgb(251, 73, 73)';
+}
+
+#fridge{
+
+}
